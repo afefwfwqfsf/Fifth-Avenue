@@ -1,0 +1,171 @@
+body{
+	background: #DFDFDF;
+}
+/*----------------------------以下是导航栏部分----------------------------*/
+#gps-l{
+	height:38px;
+	background:url(../img/navi_1pxbg.png);
+}
+#gps{
+	background: #DFDFDF;
+}
+#gps li{
+	float: left;
+}
+#gps li a{
+	line-height: 38px;
+	padding: 0 20px;
+	color: #c8a985;
+	font-size: 14px;
+}
+
+#gps li a:hover{
+	color: #fff;
+}
+
+#gps .li1{
+	width:130px;
+	height:38px;
+	background: #CC0000;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+#gps .li1:hover{
+	overflow: visible;
+	transition-duration: 1s;
+}
+
+
+#gps .li1 a{
+	color: #fff;
+}
+#gps .li11{
+	position: relative;
+	width:100px;
+}
+#gps .li11 a{
+	margin-left: 25px;
+}
+#gps .li11 em{
+	display: inline-block;
+	width: 20px;
+	height: 28px;
+	background: url(../img/share02.png) -58px -175px no-repeat;
+	position: absolute;left:-2px;top:5px;
+	margin-left: 25px;
+}
+#gps .li11 a:hover em{
+	background: url(../img/share02.png) -366px -258px no-repeat;	
+}
+
+.gps2{
+	position: absolute;left:0px;top:38px;
+}
+.gps2 li{
+	width: 130px;
+	background-color: rgba(255,0,0,0.5);
+}
+#gps .gps2 li a{
+	display:inline-block;
+	width:130px;
+	height:38px;
+	color:#000000;
+	padding:0px;
+}
+#gps .gps2 li a:hover{
+	background: #FFFFFF;
+}
+	/*----------------------------以下是分部部分----------------------------*/
+.right-btn{
+	height:100%;
+	position:fixed;
+	z-index: 90px;
+	top:0;
+	right:0;
+	width:37px;
+}
+.right-btn dl{
+	height:100%;
+	width:335px;
+	overflow: hidden;
+}
+.right-btn dl dt{
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	width:35px;
+	height:100%
+}
+.right-btn ul li{
+	background: #333;
+	margin-bottom: 1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.right-btn ul li a{
+	display: block;
+	position: relative;
+	width:35px;
+	height:35px;
+	cursor: pointer;
+	
+}
+.btn-t ul li .a1{
+	background:url(../img/share02.png) no-repeat -88px -156px;
+}
+.btn-t ul li .a2{
+	background:url(../img/share02.png) no-repeat -140px -154px;
+}
+.btn-t ul li .a3{
+	background:url(../img/share02.png) no-repeat -202px -155px;
+}
+.btn-t ul li .a4{
+	background:url(../img/share02.png) no-repeat -258px -125px;
+}
+
+.btn-b ul li .a1{
+	background:url(../img/share02.png) no-repeat -312px -155px;
+}
+.btn-b ul li .a2{
+	background:url(../img/share02.png) no-repeat -374px -157px;
+}
+.btn-b ul li .a3{
+	background:url(../img/line_bg.png) no-repeat 10px 9px;
+}
+.btn-b ul li .a4{
+	background:url(../img/share02.png) no-repeat -437px -153px;
+}
+
+
+.right-btn dl dd{
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	width:298px;
+	height:100%
+}
+.right-btn dt .btn-t{
+	position: absolute;
+	z-index: 2;
+	top:180px;
+	left: 0px;
+	width:35px;
+	height:234px;
+}
+.right-btn dt .btn-b{
+	position: absolute;
+	z-index: 2;
+	bottom: 35px;
+	left:0px;
+	width:35px;
+	height:140px;
+}
+.right-btn dd .tanchu{
+	background: #fff;
+	height:100%
+	bottom: 294px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+/*# sourceMappingURL=share-hd.css.map */

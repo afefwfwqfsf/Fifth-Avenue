@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,QAAQ;EACJ,KAAK,EAAC,MAAM;EACZ,QAAQ,EAAC,MAAM;EACf,UAAU,EAAC,IAAI;EACf,MAAM,EAAC,cAAc;EACrB,KAAK,EAAC,KAAK;EACX,KAAK,EAAC,IAAI",
+"sources": ["../commodity.scss"],
+"names": [],
+"file": "commodity.css"
+}

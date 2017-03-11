@@ -1,0 +1,36 @@
+#header{
+    width: 1000px;
+    height:100px;
+    .header-left{
+        float: left;
+        height:89px;
+        img{
+            width: 229px;
+            height: 89px;
+            margin-top: 10px;
+        }
+        span{
+            float: right;
+            font-size: 18px;
+            color: #949292;
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+    }
+   
+    .header-right{
+        float: right;
+        height: 27px;
+        margin-top: 70px;
+        img{
+            float:left;
+            width:25px;
+            height:25px; 
+            margin-top:2px;
+        }
+        span{
+            font-size:15px;
+            line-height:27px;
+        }
+    }
+}

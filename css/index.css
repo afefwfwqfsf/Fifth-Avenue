@@ -1,0 +1,503 @@
+
+/*----------------------------以下是banner部分----------------------------*/
+.banner-l{ 
+	width:100%px; 
+	height:520px; 
+	overflow:hidden; 
+	position:relative; 
+	border-top: 2px solid #C6C4C4;
+}
+.banner-l .hd{ 
+	height:15px; 
+	overflow:hidden; 
+	position:absolute; right:650px; bottom:30px; 
+	z-index:1; 
+}
+.banner-l .hd ul{ 
+	overflow:hidden; 
+	zoom:1; 
+	float:left; 
+	margin:0 auto;
+}
+.banner-l .hd ul li{ 
+	float:left; 
+	margin-right:10px;  
+	width:15px; 
+	height:15px; 
+	text-align:center; 
+	background:#fff; 
+	border-radius: 50%; 
+}
+.banner-l .hd ul li.on{ 
+	background:#f00; 
+	color:#fff; 
+}
+.banner-l .bd{ 
+	position:relative; 
+	height:100%; 
+	z-index:0;   
+}
+.banner-l .bd li{ 
+	zoom:1; 
+	vertical-align:middle; 
+}
+.banner-l .bd img{ 
+	width:100%px; 
+	height:520px; 
+	display:block;  
+}
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.banner-l .prev,
+.banner-l .next{ position:absolute; left:12%; top:50%; margin-top:-25px; display:block; }
+.banner-l .next{ left:auto; right:12%; background-position:8px 5px; }
+.banner-l .prevStop{ display:none;  }
+.banner-l .nextStop{ display:none;  }
+	/*----------------------------以下是brand部分----品牌旗舰------------------------*/
+
+#brand .logo1{
+	height:108px;
+}
+#brand .logo1 img{
+	width:1210px;
+	height:51px;
+	margin-top: 40px;
+}
+#brand .show{
+	height:329px;
+}
+#brand .show div{
+	width:234px;
+	height:329px;
+	margin-right:10px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+#brand .show img{
+	height:329px;
+	margin-right:4px;
+}
+#brand .show .box5{
+	margin-right:0;
+}
+
+#brand .show .min-lg{
+	width:174px;
+	height:154px;
+	background: #fff;
+	position: absolute;left:30px;bottom:-100px;
+}
+
+
+
+
+#brand .show .min-lg img{
+	width: 48px;
+	height: 24px;
+	margin: 10px 65px 1px;
+}
+#brand .show .min-lg .min-p{
+	width: 16px;
+	height: 1px;
+	margin: 0px 80px 40px;
+	background: #000;
+}
+#brand .show .min-lg p{
+	text-align: center;	
+}
+#brand .hot{
+	height: 60px;
+}
+#brand .hot img{
+	width: 230px;
+	height: 60px;
+	float: left;
+}
+#brand .hot .btn{
+	float: right;
+}
+#brand .hot .btn a{
+	text-align: center;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-top: 30px;
+}
+#brand .hot .btn .btn1{
+	background: url(../img/share02.png) no-repeat -160px -384px;
+}
+#brand .hot .btn .btn2{
+	margin-left:20px;
+	background: url(../img/share02.png) no-repeat -180px -384px;
+}
+
+
+
+
+
+
+#brand .shop-log{
+	height:180px;
+	width:100%;
+	overflow: hidden;
+	position: relative;
+}
+#brand .shop-log ul{
+	width:3630px;
+	position: absolute;
+	left:0px;top:0px;
+	height:184px;
+}
+#brand .shop-log ul li{
+	float: left;
+	width:1210px;
+	height:184px;
+}
+
+#brand .shop-log .box1{
+	width: 165px;
+	height:83px;
+	border:1px solid #000;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+#brand .shop-log img{
+	width:107px;
+	height:54px;
+	margin:15px 0 0 28px;
+}
+#brand .shop-log .logo-p{
+	text-align: center;
+	line-height: 83px;
+	font-size: 28px;
+	color: #000;
+	font-weight: bolder;
+}
+	/*----------------------------以下是brand部分----商场同款------------------------*/
+#brand .logo2{
+	height:108px;
+}
+#brand .logo2 img{
+	width: 1210px;
+	height: 108px;
+}
+#brand .market{
+	height: 30px;
+	margin-bottom: 15px;
+}
+#brand .market li{
+	float: left;	
+	width: 398px;
+	height: 30px;
+	color: #FFF;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 8px;
+}
+#brand .shop-show{
+	height: 518px;
+}
+#brand .shop-show .big-show{
+	float: left;
+	width: 368px;
+	height: 518px;
+}
+#brand .big-show img{
+	width: 368px;
+	height:518px
+}
+#brand .shop-show .small-show{
+	float:right;
+	width: 833px;
+}
+
+#brand .small-show .small1{
+	float: left;
+	width: 222px;
+	height: 248px;
+	border: #ccc 1px solid;
+	margin-right: 6px;
+	position: relative;
+}
+#brand .small-show .small2{
+	float: left;
+	width: 367px;
+	height: 248px;
+	border: #ccc 1px solid;
+	margin-right: 6px;
+	position: relative;
+}
+#brand .small-show .small3{
+	float: left;
+	width: 271px;
+	height: 255px;
+	border: #ccc 1px solid;
+	margin-right: 6px;
+	margin-top: 8px;
+	position: relative;
+}
+
+#brand .small-show .small1 img{
+	width: 150px;
+	height: 150px;
+	position: absolute;left:35px;top:55px;
+
+}
+#brand .small-show .small2 img{
+	width: 180px;
+	height: 228px;
+	position: absolute;left:130px;top:20px;
+
+}
+#brand .small-show .small3 img{
+	width: 150px;
+	height: 150px;
+	position: absolute;left: 65px;top:65px;
+
+}
+
+
+#brand .small-show div:hover .move-p{
+	position:absolute;left:-30px;top:10px;
+	transition-duration:1s;
+}
+#brand .small-show .small2:hover .move-p{
+	position:absolute;left:40px;top:20px;
+	transition-duration:1s;
+} 
+#brand .small-show .small1:hover img{
+	position:absolute;left:65px;top:55px;
+	transition-duration:1s;
+}
+#brand .small-show .small2:hover img{
+	position:absolute;left:160px;top:20px;
+	transition-duration:1s;
+}
+#brand .small-show .small3:hover img{
+	position:absolute;left:95px;top:65px;
+	transition-duration:1s;
+}
+
+#brand .small1 .move-p{
+	width: 222px;
+	height: 48px;
+	text-align: center;
+	position: absolute;left:0;top:10px;
+}
+
+#brand .small2 .move-p{
+	width: 60px;
+	height: 72px;
+	text-align: center;
+	position: absolute;left:70px;top:20px;
+}
+
+#brand .small3 .move-p{
+	width: 271px;
+	height: 72px;
+	text-align: center;
+	position: absolute;left:0;top:10px;
+}
+
+	/*----------------------------以下是brand部分----购物中心------------------------*/
+#brand .center{
+	height: 120px;
+}
+#brand .center-list{
+	height: 50px;
+}
+#brand .center-list li{
+	float: left;
+	width: 234px;	
+	height: 50px;
+	margin-right: 8px;
+	overflow: hidden;
+	position: relative;
+}
+#brand .center-list .box{
+	width:234px;
+	height:100px;
+	position: absolute;top:0;left:0;
+}
+#brand .center-list a{
+	display: block;
+	font-size: 14px;
+	width: 224px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	background: #999;
+	padding:5px;
+}
+#brand .center-list .bottom{
+	width:211px;
+	height:28px;
+	border:1px solid #fff;
+	background: #333;
+	line-height: 30px;
+	padding:5px;
+}
+#brand .center-list .box:hover{
+	position: absolute;left:0;top:-50px;
+	transition-duration: 1s;
+}
+
+#brand .classic-bags{
+	height: 60px;
+}
+#brand .classic-bags img{
+	float: left;
+	height: 60px;
+}
+#brand .classic-bags .more{
+	float: right;
+	width: 130px;
+	height: 60px;
+}
+#brand .classic-bags .more a{
+	width: 130px;
+	height: 60px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+}
+
+#brand .goods{
+	height: 372px;
+}
+#brand .goods1{
+	float: left;
+	width: 220px;
+	height: 366px;
+	border: #ccc 1px solid;
+	margin-right: 8px;
+	padding: 4px 9px 0;
+}
+#brand .goods1 .ul1{
+	height: 197px;
+	border-bottom: 1px dashed #ccc
+}
+#brand .goods1 .ul1 li{
+	float: left;
+	width: 110px;
+	height: 36px;
+}
+#brand .goods1 a{
+	font-size: 14px;
+	line-height: 36px;
+}
+#brand .goods1 a:hover{
+	color: #c77f40;
+}
+#brand .goods1 .ul2{
+	height: 114px;
+	margin-top: 14px;
+}
+#brand .goods1 .ul2 img{
+	float: left;
+	width: 90px;
+	height: 45px;
+	margin-bottom: 12px;
+	margin-left: 12px;
+	border: 1px solid #ccc;
+}
+#brand .goods1 .btn{
+	height:33px;
+	margin:10px 82px;
+}
+#brand .goods1 .btn a{
+	display: inline-block;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background: #666;
+	margin-left: 5px;
+}
+#brand .goods1 .btn a:hover{
+	background: #c77f40;	
+}
+
+#brand .goods2{
+	float: left;
+	width: 390px;
+	height: 370px;
+	border: #ccc 1px solid;
+	position: relative;
+}
+#brand .goods2 .explain{
+	width: 250px;
+	height: 90px;
+	position: absolute;left: 66px;bottom:20px;
+}
+#brand .goods2 .explain p{
+	width: 250px;
+	text-align: center;
+	line-height: 24px;
+}
+#brand .goods2 .explain .pa{
+	width: 20px;
+	height:2px;
+	background: #000;
+	margin: 10px 115px;
+}
+#brand .goods2 .explain .pb{
+	font-size: 13px;
+}
+#brand .goods2 .explain .pc{
+	font-size: 17px;
+}
+
+#brand .goods3{
+	float: right;
+	width: 560px;
+	height: 370px;
+}
+#brand .goods3 img{
+	float: left;
+	width: 275px;
+	height: 180px;
+	border: 1px solid #ccc;
+}
+	/*----------------------------以下是brand部分----主题活动------------------------*/
+#brand .theme-logo{
+	height:120px;
+}
+#brand .theme-big{
+	height: 590px;
+}
+#brand .big1,.big2{
+	height:293px;
+	margin-bottom: 10px;
+}
+#brand .theme-big img{
+	float: left;
+	width:293px;
+	height: 293px;
+	margin-right: 9px;
+}
+
+#brand .theme-small{
+	height: 146px;
+	margin-bottom: 70px;
+}
+#brand .theme-small .min{
+	float:left;
+	width: 610px;
+	height: 146px;
+	margin-top: 10px;
+}
+#brand .theme-small .min img{
+	margin-right: 6px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+#brand .theme-small .max{
+	float:right;
+	margin-top: 10px;
+}
+
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/share.css" />
+		<link rel="stylesheet" type="text/css" href="css/share-h.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+		<script type="text/javascript" src="js/register.js"></script>
+			
+
+	</head>
+	<body>
+	<!-------------------------------------以下是head部分------------------------------------------>	
+		<div id="head">
+			<div id="header">
+				<div class="header-left">
+					<img src="img/v30_5luxlogo.png" />
+					<span>欢迎登陆</span>
+				</div>
+				<div class="header-right">
+					<img src="img/8-132_03.jpg" />
+					<span>客服热线4008-6767-38</span>
+				</div>			
+			</div>	
+		</div>
+	
+	<!-------------------------------------以下是登录部分------------------------------------------>	
+		<div id="enter-l">
+			<div id="enter">
+				<img class="enter-bg" src="img/caigou-icon.png" />
+				<div class="enter-box">
+					<div class="box">
+						<h4>登录第五大道</h4>
+						<div name="register" action="demo01.php">
+							<input class="user" type="text" id="userName" name="username" placeholder="用户名/Email/手机号" />
+							<input class="mima" type="password" id="userPass" name="password" placeholder="请输入密码" />
+							<div class="use">
+								<input class="rmb" type="checkbox" /><span>记住我（下次登录）</span>
+								<a href="javascript:">忘记密码？</a>
+							</div>
+							<input class="dengl" type="submit" value="登    录" />
+							<div class="ues1">
+								<span>还没账号？</span>
+								<a href="javascript:">立即注册</a>
+							</div>
+							<div class="ues2">
+								<p>合作网站账号登录：</p>
+								<a href="javascript:"><img src="img/qq.jpg"/></a>
+								<a href="javascript:"><img src="img/xinlang.jpg"/></a>
+								<a href="javascript:"><img src="img/weixin.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	<!-------------------------------------以下是底部部分------------------------------------------>	
+		<div id="footer-l">
+			
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$("#footer-l").load("footer.html");
+			});
+		</script>
+		
+	</body>
+</html>

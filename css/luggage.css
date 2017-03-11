@@ -1,0 +1,193 @@
+#center1 .box {
+  height: 43px; }
+  #center1 .box a, #center1 .box span {
+    float: left;
+    text-align: center;
+    line-height: 43px;
+    color: #79502d;
+    padding: 0 10px;
+    font-size: 13px; }
+  #center1 .box span {
+    float: right;
+    color: #79502d; }
+#center1 .brand {
+  border: 1px solid #bfbfbf;
+  width: 100%; }
+
+.brand li {
+  width: 100%;
+  overflow: hidden;
+  background: #ebebeb; }
+  .brand li span {
+    float: left;
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    color: #6e3e0e;
+    text-indent: 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle; }
+  .brand li .b-right {
+    width: 1080px;
+    float: left;
+    padding-bottom: 10px;
+    overflow: hidden;
+    background: #fff;
+    min-height: 45px; }
+
+.b-right a {
+  padding: 3px 8px;
+  margin: 0px 3px;
+  line-height: 22px;
+  color: #000; }
+.b-right a:hover {
+  background: #c69c6d;
+  color: #fff; }
+.b-right .a1 {
+  padding: 3px 16px; }
+.b-right .a2 {
+  padding: 3px 12px;
+  color: #757272;
+  background: #c6c4c4; }
+.b-right .a3 {
+  background: #c69c6d;
+  color: #fff; }
+.b-right .a2:hover {
+  color: #c69c6d;
+  background: #c6c4c4; }
+.b-right .min1 {
+  padding: 11px 10px;
+  width: 100%;
+  font-size: 13px; }
+.b-right .min2 {
+  max-height: 200px;
+  overflow: auto;
+  position: relative;
+  padding-left: 13px; }
+  .b-right .min2 a {
+    display: inline-block;
+    margin: 10px 10px 0;
+    color: #6e3e0e;
+    padding: 3px 10px; }
+  .b-right .min2 a:hover {
+    color: #fff; }
+.b-right .min3 {
+  border-bottom: 1px solid #e7e7e7; }
+  .b-right .min3 a:hover {
+    color: #000; }
+
+.list {
+  margin-top: 10px;
+  padding: 9px 9px;
+  background: #f2f2f2;
+  color: #666;
+  height: 27px; }
+  .list .list-l {
+    float: left;
+    width: 304px;
+    height: 25px;
+    background: #fff;
+    border: 1px solid #c9c9c9; }
+    .list .list-l a {
+      display: inline-block;
+      width: 40px;
+      padding: 0 10px;
+      line-height: 25px;
+      float: left;
+      border-right: 1px solid #c9c9c9; }
+      .list .list-l a em {
+        display: inline-block;
+        width: 10px;
+        height: 25px;
+        float: right; }
+    .list .list-l .a1 {
+      color: #fff;
+      background: #c69c6d;
+      position: relative; }
+      .list .list-l .a1 em {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background: url(../img/brandstore_share.png) -314px -241px no-repeat; }
+    .list .list-l a:hover {
+      color: #c69c6d; }
+    .list .list-l a:active {
+      color: #fff;
+      background: #c69c6d; }
+  .list .list-r {
+    float: right;
+    margin-top: 3px;
+    margin-right: 20px; }
+    .list .list-r span {
+      width: 27px;
+      height: 27px;
+      display: inline-block; }
+    .list .list-r a {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      border: 1px solid #c9c9c9;
+      margin-left: 10px; }
+
+.list-show {
+  width: 1208px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 1px; }
+  .list-show .bag {
+    float: left;
+    width: 282px;
+    height: 460px;
+    border: 10px solid #fff; }
+    .list-show .bag img {
+      width: 267px;
+      height: 267px;
+      margin: 0 auto;
+      margin-bottom: 70px;
+      display: block; }
+    .list-show .bag span a {
+      display: block;
+      text-align: center;
+      color: #000;
+      line-height: 24px; }
+    .list-show .bag .red {
+      display: block;
+      text-align: center;
+      color: #b28247; }
+    .list-show .bag a:hover {
+      color: #b28247; }
+  .list-show .bag:hover {
+    width: 282px;
+    height: 460px;
+    border: 10px solid #f2f2f2; }
+
+.page {
+  width: 100%;
+  padding: 30px 0; }
+  .page .list-page {
+    width: 438px;
+    height: 33px;
+    margin: 0 auto; }
+    .page .list-page span, .page .list-page a {
+      display: inline-block;
+      height: 30px;
+      padding: 0 13px;
+      margin: 0 1px;
+      line-height: 30px;
+      text-align: center;
+      border: 1px solid #c69c6d;
+      font-weight: bolder;
+      color: #666;
+      font-size: 14px; }
+    .page .list-page .num1 {
+      background: #c69c6d;
+      color: #fff; }
+    .page .list-page a:hover {
+      background: #c69c6d;
+      color: #fff; }
+
+/*# sourceMappingURL=luggage.css.map */

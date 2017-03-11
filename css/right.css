@@ -1,0 +1,93 @@
+/*----------------------------以下是右侧栏部分----------------------------*/
+.right-btn{
+	height:100%;
+	position:fixed;
+	z-index: 90;
+	top:0;
+	right:0;
+	width:37px;
+	
+}
+.right-btn dl{
+	height:100%;
+	width:335px;
+	overflow: hidden;
+}
+.right-btn dl dt{
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	width:35px;
+	height:100%
+}
+.right-btn ul li{
+	background: #333;
+	margin-bottom: 1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.right-btn ul li a{
+	display: block;
+	position: relative;
+	width:35px;
+	height:35px;
+	cursor: pointer;
+	
+}
+.btn-t ul li .a1{
+	background:url(../img/share02.png) no-repeat -88px -156px;
+}
+.btn-t ul li .a2{
+	background:url(../img/share02.png) no-repeat -140px -154px;
+}
+.btn-t ul li .a3{
+	background:url(../img/share02.png) no-repeat -202px -155px;
+}
+.btn-t ul li .a4{
+	background:url(../img/share02.png) no-repeat -258px -125px;
+}
+
+.btn-b ul li .a1{
+	background:url(../img/share02.png) no-repeat -312px -155px;
+}
+.btn-b ul li .a2{
+	background:url(../img/share02.png) no-repeat -374px -157px;
+}
+.btn-b ul li .a3{
+	background:url(../img/line_bg.png) no-repeat 10px 9px;
+}
+.btn-b ul li .a4{
+	background:url(../img/share02.png) no-repeat -437px -153px;
+}
+
+
+.right-btn dl dd{
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	width:298px;
+	height:100%
+}
+.right-btn dt .btn-t{
+	position: absolute;
+	z-index: 2;
+	top:180px;
+	left: 0px;
+	width:35px;
+	height:234px;
+}
+.right-btn dt .btn-b{
+	position: absolute;
+	z-index: 2;
+	bottom: 35px;
+	left:0px;
+	width:35px;
+	height:140px;
+}
+.right-btn dd .tanchu{
+	background: #fff;
+	height:100%
+	bottom: 294px;
+	overflow: hidden;
+	margin: 0 auto;
+}

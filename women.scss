@@ -1,0 +1,187 @@
+#center-l,#center-ll{
+    width:100%;
+    overflow: hidden;
+    padding-bottom: 50px;
+    #center,#recommend-logo,#recommend,#classify,#center2{
+        width:1000px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+#recommend-logo{
+    padding-top:35px;
+    img{
+        float: left;
+        width: 336px;
+        height:36px;
+        margin-top: 9px;
+        z-index:1;
+    }
+    a{
+        float: right;
+        width: 90px; 
+        height: 30px;
+        font-size: 13px;
+        color: #000;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+        padding-top:15px;
+        background:url(../img/more.png) no-repeat;  
+        background-position: 30px 0px;
+    }
+    a:hover{
+        color: #d00000;
+    }
+}
+
+#recommend{
+    padding:20px 0px; 
+    box-shadow: 0px 0px 18px #777;
+    .box{ 
+        float:left;
+        width:180px;
+        padding: 0 10px;
+        position: relative;  
+        img{
+            width: 180px;
+            height: 240px; 
+        }
+        a{          
+            float:left;
+            width: 180px;
+            height: 240px; 
+            position: absolute;
+            left:10px; top:0px;
+            color:#fff;
+            font-size:0px;
+            line-height:240px;
+            text-align:center; 
+            z-index:100;          
+        }
+        a:hover{
+           background: rgba(0,0,0,0.5); 
+           font-size:24px;
+        }     
+    }
+}
+
+/*-----------------------------------------------一下是商品分类部分----------------------------------------------*/
+#classify{
+    box-shadow:#a7a7a7 0px 2px 16px;
+    ul{
+        padding:10px 0px;
+        li{
+            float:left;
+            width:245px;
+            height:150px;
+            padding:8px 0px;
+            border-right: 1px dashed #BFBFBF;
+            img{
+                float: left;
+                width:35px;
+                height:35px;
+                padding-left:20px;
+            }
+            .box{
+                float: left;
+                padding: 0px 8px;
+                width: 164px;
+                h4{
+                   font-size:1.17em; 
+                   padding: 3px;
+                    a{
+                        display: inline-block;
+                        line-height: 24px;
+                        color:#000; 
+                    }
+                }
+                a{
+                    display: inline-block;
+                    line-height: 22px;
+                    padding: 0px 3px;
+                    margin-right: 8px;
+                    color:#000;
+                }
+                a:hover{
+                    color:#fff;
+                    background:#d00000;
+                }
+            }
+        }
+    }
+}
+
+#center-ll{
+    background: #e6e6e6;
+    padding-top:5px;
+    padding-bottom: 0px;
+    #center2{
+        box-shadow:#a7a7a7 0px 2px 16px;
+        background: #fff;
+        margin-bottom: 50px;
+        .bags-title{
+            height: 90px;
+            img{
+                float:left;
+                margin-top:15px;
+            }   
+            .bags-list{
+                float:right;
+                background: url(../img/more.png) no-repeat 470px 2px;               
+                a{
+                    line-height:90px;
+                    margin: 0 12px;
+                    color:#000;
+                }
+                a:hover{
+                    color:#C77F40;
+                }
+                a:last-child:hover{
+                    color:#d00000;
+                }
+            }
+        }
+        
+        .show-big{
+            padding: 0 12px;
+            overflow: hidden;
+            img{
+                float:left;
+            }
+        }
+        
+        .show-small{
+            overflow: hidden;
+            .small-box{
+                float:left;
+                width: 184px;
+                height: 266px;
+                margin: 25px 8px;
+                img{
+                    width: 184px;
+                    height: 193px;
+                    padding-bottom: 12px;
+                }
+                .price{
+                    width: 184px;
+                    height: 61px;
+                    p{
+                        text-align:center;
+                        padding-top:8px;
+                    }
+                }
+            }
+            .small-box:hover{
+                box-shadow:#a7a7a7 0px 4px 10px;
+            }
+            .small-box:hover .price{
+                background: #e0e0e0;   
+            }
+            a:hover{
+                color:#b28247;  
+            }
+        }
+    }
+}

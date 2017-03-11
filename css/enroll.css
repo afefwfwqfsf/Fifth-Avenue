@@ -1,0 +1,94 @@
+#center-l {
+  height: 659px;
+  background: url(../img/zhuce-bg.jpg) no-repeat; }
+  #center-l #center {
+    height: 659px;
+    background: url(../img/zhuce-icon.png) -9px 0px no-repeat;
+    position: relative; }
+    #center-l #center .box {
+      width: 330px;
+      height: 532px;
+      background: #fff;
+      position: absolute;
+      right: 105px;
+      top: 45px;
+      padding: 15px 60px 45px 60px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px #ccc; }
+
+.box h4 {
+  width: 112px;
+  height: 29px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  line-height: 29px; }
+.box span {
+  display: inline-block;
+  width: 72px;
+  height: 12px; }
+  .box span em {
+    float: right;
+    font-style: normal; }
+.box div {
+  width: 330px;
+  height: 34px;
+  padding-top: 30px; }
+.box input {
+  width: 210px;
+  height: 30px;
+  border: 1px solid #ccc; }
+.box .phone {
+  position: relative;
+  border-top: 1px solid #ccc; }
+  .box .phone a {
+    display: block;
+    text-align: center;
+    line-height: 27px;
+    width: 72px;
+    height: 27px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: -40px;
+    top: 32px;
+    color: #000; }
+.box .deal {
+  width: 268px;
+  height: 24px;
+  margin: 0 0 20px 60px; }
+  .box .deal input {
+    width: 15px;
+    height: 15px;
+    float: left; }
+  .box .deal span {
+    width: 230px;
+    height: 24px;
+    line-height: 24px; }
+.box .deng {
+  width: 210px;
+  height: 30px;
+  background: #cf0101;
+  margin-left: 72px; }
+.box .ues1 {
+  width: 160px;
+  height: 24px;
+  padding-left: 170px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc; }
+  .box .ues1 span {
+    margin-right: 5px; }
+  .box .ues1 a {
+    color: #a78668;
+    text-decoration: underline; }
+.box p {
+  width: 330px;
+  height: 24px;
+  margin: 30px 0 10px 0;
+  text-align: center;
+  line-height: 24px; }
+  .box p span {
+    color: #f00;
+    width: 42px; }
+
+/*# sourceMappingURL=enroll.css.map */

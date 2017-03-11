@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/share.css" />
+		<link rel="stylesheet" type="text/css" href="css/share-h.css" />
+		<link rel="stylesheet" type="text/css" href="css/enroll.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+	</head>
+	<body>
+	<!-------------------------------------以下是头部部分------------------------------------------>
+		<div id="head">
+			<div id="header">
+				<div class="header-left">
+					<img src="img/v30_5luxlogo.png" />
+					<span>注册第五大道</span>
+				</div>
+				<div class="header-right">
+					<img src="img/8-132_03.jpg" />
+					<span>客服热线4008-6767-38</span>
+				</div>			
+			</div>	
+		</div>
+	<!-------------------------------------以下是注册部分------------------------------------------>
+		<div id="center-l">
+			<div id="center">
+				<div class="box">
+						<h4>使用手机注册</h4>
+						<form name="enroll" action="demo01.php">
+							<div class="phone">
+								<span><em>您的手机：</em></span>
+								<input type="text" name="userphone" />
+								<a href="javascript:" >获取验证码</a>
+							</div>
+							<div class="code">
+								<span><em>手机验证码：</em></span>
+								<input class="" type="text" name="yzm" />
+							</div>
+							<div class="pwd">
+								<span><em>密码：</em></span>
+								<input type="password" name="password" />
+							</div>
+							<div class="pwd1">
+								<span><em>确认密码：</em></span>
+								<input type="password" name="password1" />
+							</div>
+							<div class="deal">
+								<input type="checkbox" />
+								<span>我已阅读并同意《第五大道商场服务条款》</span>
+							</div>
+							<input class="deng" type="submit" value="注册" />
+							<div class="ues1">
+								<span>已有账号？</span>
+								<a href="javascript:">立即登录</a>
+							</div>
+							<p>立即注册免费获得<span>1880元</span>优惠券</p>
+						</form>
+				</div>
+			</div>
+		</div>
+	<!-------------------------------------以下是底部部分------------------------------------------>	
+		<div id="footer-l">
+			
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$("#footer-l").load("footer.html");
+			});
+		</script>
+	</body>
+</html>

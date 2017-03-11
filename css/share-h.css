@@ -1,0 +1,30 @@
+#header {
+  width: 1000px;
+  height: 100px; }
+  #header .header-left {
+    float: left;
+    height: 89px; }
+    #header .header-left img {
+      width: 229px;
+      height: 89px;
+      margin-top: 10px; }
+    #header .header-left span {
+      float: right;
+      font-size: 18px;
+      color: #949292;
+      margin-top: 40px;
+      margin-left: 10px; }
+  #header .header-right {
+    float: right;
+    height: 27px;
+    margin-top: 70px; }
+    #header .header-right img {
+      float: left;
+      width: 25px;
+      height: 25px;
+      margin-top: 2px; }
+    #header .header-right span {
+      font-size: 15px;
+      line-height: 27px; }
+
+/*# sourceMappingURL=share-h.css.map */

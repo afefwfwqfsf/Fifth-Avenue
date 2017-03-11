@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*----------------------------以下是登录部分----------------------------*/
+#enter-l {
+  height: 570px;
+  background: url(../img/caigou-bg.jpg) no-repeat; }
+  #enter-l #enter {
+    width: 1000px;
+    height: 570px;
+    margin: 0 auto;
+    position: relative; }
+    #enter-l #enter .enter-bg {
+      position: absolute;
+      left: -110px;
+      top: 0;
+      z-index: 3; }
+    #enter-l #enter .enter-box {
+      width: 450px;
+      height: 499px;
+      background: #fff;
+      position: absolute;
+      right: 0;
+      top: 45px; }
+
+.enter-box .box {
+  width: 300px;
+  height: 409px;
+  margin: 45px auto; }
+  .enter-box .box h4 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #6d6d6d;
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc; }
+
+div .user, div .mima {
+  width: 197px;
+  height: 34px;
+  background: url(../img/login_reg_input_user_bg.jpg) no-repeat;
+  margin: 25px;
+  border: 1px solid #ccc;
+  padding-left: 35px; }
+div .mima {
+  margin: 0 0 30px 25px;
+  background: url(../img/login_reg_input_pw_bg.jpg) no-repeat; }
+div .use {
+  width: 234px;
+  height: 24px;
+  margin-left: 25px; }
+  div .use .rmb, div .use span {
+    float: left; }
+  div .use a {
+    float: right;
+    color: #a78668;
+    text-decoration: underline; }
+div .dengl {
+  width: 235px;
+  height: 30px;
+  background: #cf0101;
+  border: none;
+  margin: 25px;
+  color: #fff;
+  font-size: 16px; }
+div .ues1 {
+  width: 135px;
+  height: 24px;
+  padding-left: 140px;
+  margin-bottom: 15px; }
+  div .ues1 span {
+    margin-right: 10px; }
+  div .ues1 a {
+    color: #a78668;
+    text-decoration: underline; }
+div .ues2 {
+  width: 260px;
+  height: 48px;
+  padding: 20px;
+  border-top: 1px solid #ccc; }
+  div .ues2 p {
+    margin-bottom: 8px; }
+
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,97 @@
+/*----------------------------以下是底部部分----------------------------*/
+#footer-l{
+	height: 601px;
+	border-top: 1px solid #C9C9C9;
+	background: url(../img/footer_message_bg.jpg) no-repeat;
+}
+
+	/*----------------------------以下是底部部分1----------------------------*/
+.footer1{
+	height: 117px;
+	border-bottom: 1px solid #ccc;
+}
+.footer1 div{
+	width: 242px;
+	height: 64px;
+	float: left;
+	margin-top: 26px;
+}
+.footer1 img{
+	float: left;
+}
+.footer1 .icon1{
+	float: right;
+	width: 160px;
+	height: 48px;
+	margin-top:12px;
+}
+.footer1 .icon1 a{
+	line-height: 30px;
+	color: #000
+}
+.footer1 .icon1 a:hover{
+	text-decoration: underline;
+}
+
+	/*----------------------------以下是底部部分2----------------------------*/
+.footer2{
+	height: 283px;
+	padding-left: 40px;
+}
+.footer2 div{
+	float: left;
+	width: 185px;
+	height: 160px;
+}
+.footer2 div h5{
+	width: 185px;
+	height: 24px;
+	margin: 20px 0px;
+}
+.footer2 div a{
+	display: block;
+	width: 185px;
+	height: 24px;
+	color: #000;
+}
+.footer2 .code{
+	width: 122px;
+	height: 160px;
+}
+.footer2 div a:hover{
+	text-decoration: underline;
+}
+
+	/*----------------------------以下是底部部分3----------------------------*/
+.footer3{
+	height: 177px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.footer3 a{
+	display: inline-block;
+	color: #fff;
+	padding: 0 10px;
+}
+
+.footer3 .footer-t{
+	height:66px;
+	line-height: 66px;
+}
+.footer3 .footer-c{
+	height:48px;
+	line-height: 24px;
+}
+.footer3 .footer-b{
+	height:40px;
+	margin-top: 23px;
+}
+.footer3 .footer-b a{
+	padding: 0  3px;
+}
+.footer3 a:hover{
+	text-decoration: underline;
+}
+
+/*# sourceMappingURL=share-hf.css.map */

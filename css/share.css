@@ -1,0 +1,10 @@
+body, ul, ol, li, dl, dd, dt, h1, h2, h3, h4, h5, h6, p, a, span, form, img {
+  margin: 0;
+  padding: 0; }
+
+body{width:100%; font: 12px 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;}
+li{list-style: none;}
+a{color: #666; text-decoration: none;}
+img{border: none;}
+#header,#search-l,#gps,#brand,#footer,#enter,#center,#center1,#center2,#center3{margin: 0 auto; width:1210px;}
+/*# sourceMappingURL=share.css.map */

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+#center-l, #center-ll {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 50px; }
+  #center-l #center, #center-l #recommend-logo, #center-l #recommend, #center-l #classify, #center-l #center2, #center-ll #center, #center-ll #recommend-logo, #center-ll #recommend, #center-ll #classify, #center-ll #center2 {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden; }
+
+#recommend-logo {
+  padding-top: 35px; }
+  #recommend-logo img {
+    float: left;
+    width: 336px;
+    height: 36px;
+    margin-top: 9px;
+    z-index: 1; }
+  #recommend-logo a {
+    float: right;
+    width: 90px;
+    height: 30px;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    background: url(../img/more.png) no-repeat;
+    background-position: 30px 0px; }
+  #recommend-logo a:hover {
+    color: #d00000; }
+
+#recommend {
+  padding: 20px 0px;
+  box-shadow: 0px 0px 18px #777; }
+  #recommend .box {
+    float: left;
+    width: 180px;
+    padding: 0 10px;
+    position: relative; }
+    #recommend .box img {
+      width: 180px;
+      height: 240px; }
+    #recommend .box a {
+      float: left;
+      width: 180px;
+      height: 240px;
+      position: absolute;
+      left: 10px;
+      top: 0px;
+      color: #fff;
+      font-size: 0px;
+      line-height: 240px;
+      text-align: center;
+      z-index: 100; }
+    #recommend .box a:hover {
+      background: rgba(0, 0, 0, 0.5);
+      font-size: 24px; }
+
+/*-----------------------------------------------涓€涓嬫槸鍟嗗搧鍒嗙被閮ㄥ垎----------------------------------------------*/
+#classify {
+  box-shadow: #a7a7a7 0px 2px 16px; }
+  #classify ul {
+    padding: 10px 0px; }
+    #classify ul li {
+      float: left;
+      width: 245px;
+      height: 150px;
+      padding: 8px 0px;
+      border-right: 1px dashed #BFBFBF; }
+      #classify ul li img {
+        float: left;
+        width: 35px;
+        height: 35px;
+        padding-left: 20px; }
+      #classify ul li .box {
+        float: left;
+        padding: 0px 8px;
+        width: 164px; }
+        #classify ul li .box h4 {
+          font-size: 1.17em;
+          padding: 3px; }
+          #classify ul li .box h4 a {
+            display: inline-block;
+            line-height: 24px;
+            color: #000; }
+        #classify ul li .box a {
+          display: inline-block;
+          line-height: 22px;
+          padding: 0px 3px;
+          margin-right: 8px;
+          color: #000; }
+        #classify ul li .box a:hover {
+          color: #fff;
+          background: #d00000; }
+
+#center-ll {
+  background: #e6e6e6;
+  padding-top: 5px;
+  padding-bottom: 0px; }
+  #center-ll #center2 {
+    box-shadow: #a7a7a7 0px 2px 16px;
+    background: #fff;
+    margin-bottom: 50px; }
+    #center-ll #center2 .bags-title {
+      height: 90px; }
+      #center-ll #center2 .bags-title img {
+        float: left;
+        margin-top: 15px; }
+      #center-ll #center2 .bags-title .bags-list {
+        float: right;
+        background: url(../img/more.png) no-repeat 470px 2px; }
+        #center-ll #center2 .bags-title .bags-list a {
+          line-height: 90px;
+          margin: 0 12px;
+          color: #000; }
+        #center-ll #center2 .bags-title .bags-list a:hover {
+          color: #C77F40; }
+        #center-ll #center2 .bags-title .bags-list a:last-child:hover {
+          color: #d00000; }
+    #center-ll #center2 .show-big {
+      padding: 0 12px;
+      overflow: hidden; }
+      #center-ll #center2 .show-big img {
+        float: left; }
+    #center-ll #center2 .show-small {
+      overflow: hidden; }
+      #center-ll #center2 .show-small .small-box {
+        float: left;
+        width: 184px;
+        height: 266px;
+        margin: 25px 8px; }
+        #center-ll #center2 .show-small .small-box img {
+          width: 184px;
+          height: 193px;
+          padding-bottom: 12px; }
+        #center-ll #center2 .show-small .small-box .price {
+          width: 184px;
+          height: 61px; }
+          #center-ll #center2 .show-small .small-box .price p {
+            text-align: center;
+            padding-top: 8px; }
+      #center-ll #center2 .show-small .small-box:hover {
+        box-shadow: #a7a7a7 0px 4px 10px; }
+      #center-ll #center2 .show-small .small-box:hover .price {
+        background: #e0e0e0; }
+      #center-ll #center2 .show-small a:hover {
+        color: #b28247; }
+
+/*# sourceMappingURL=women.css.map */
